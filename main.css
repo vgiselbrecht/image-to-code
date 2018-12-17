@@ -1,0 +1,105 @@
+body{
+	text-align: center;
+	background: #FFF;
+	color: #333;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.textA{
+	width: 600px;
+	height: 90px;
+}
+
+h1{
+	font-size: 32px;
+	margin: 0px;
+	padding: 0px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #888;
+	padding-bottom: 15px;
+}
+
+#content{
+	margin: 25px auto 0;
+	width: 650px;
+	background: #EEE;
+	border: 1px solid #888;
+	border-radius: 5px;
+	padding-top: 20px;
+	box-shadow: 0 0 8px 2px #555;
+}
+
+#drop_zone {
+	border: 2px dashed #888;
+	border-radius: 5px;
+	border-radius: 5px;
+	padding: 25px;
+	text-align: center;
+	font: 20pt bold 'Vollkorn';
+	color: #888;
+	margin:25px;
+	font-size: 30px;
+}
+
+#output{
+	width: 600px;
+	border: 1px solid #888;
+	margin:25px;
+	background:#fff;
+	box-shadow: 0 0 8px 2px #555;
+	border-radius:3px;
+}
+
+#output img{
+	max-width: 600px;
+}
+
+#loading{
+	margin:20px;
+}
+
+#footer{
+	font-size: 20px;
+	border-top: 1px solid #888;
+	padding:5px;
+}
+
+a{
+	text-decoration: none;
+	color: #333;
+}
+a:hover{
+	text-decoration: underline;
+}
+
+.fileupload {
+	cursor: pointer;
+    position: relative;
+	margin-left: -75px;
+	width: 150px;
+	height: 56px;
+	left: 50%;
+    overflow: hidden;
+	border: 1px solid #333;
+	border-radius: 3px;
+	background: #ccc;
+	box-shadow: 0 0 8px 2px #555;
+	padding: 4px;
+	font-size: 20px;
+	background: linear-gradient(#ccc,#ddd,#ddd,#ccc);
+}
+.fileupload:hover {
+	background: linear-gradient(#ccc,#bbb,#bbb,#ccc);
+}
+
+.fileupload input {
+    cursor: pointer;
+    opacity: 0.0;
+    filter: alpha(opacity=0); /* and all the other old opacity stuff you                              want to support */
+	position: absolute;
+    top: 0;
+    right: 0;
+	padding: 4px;
+	width: 150px;
+	height: 56px;
+}
